@@ -8,7 +8,7 @@
 <h6 align=center>University of Bremen</h6>
 	
 <p align=center>
-	<a href="https://raw.githubusercontent.com/schulze-paul/BIAS-SPICE/master/BachelorThesis.pdf">Thesis</a> • <a href="https://raw.githubusercontent.com/schulze-paul/BIAS-SPICE/master/BA_Paul_Schulze_Presentation.pdf">Presentation</a>
+	<a href="https://raw.githubusercontent.com/schulze-paul/BIAS-SPICE/master/BachelorThesis.pdf">Thesis</a> • <a href="https://raw.githubusercontent.com/schulze-paul/BIAS-SPICE/master/BA_Paul_Schulze_Presentation.pdf">Presentation</a> • <a href="https://schulze-paul.github.io/SPICE-Coherent-Light-Simulations/">Project Page</a>
 </p>
 
 
