@@ -29,8 +29,6 @@ evidence. I experimentally demonstrate a visible difference in contrast and imag
 microscopic surface features of different height. This paves the road for the development of a
 fully functional measuring method that is precise, fast, robust against vibrations and exhibits an
 extended depth of focus.
-	
-Simulation and control software of white light interferometry methods.
 
 <h1 align=center >Simulation Results</h1>
 
@@ -142,7 +140,7 @@ denotes the area where the contrast of the recorded intensity distribution is hi
 	width="800"/>
 </div>
 
-<b>Figure 7. : Influence of the aperture diameter in the Fourier plane on the intensity distribution in
+<b>Figure 7. Influence of the aperture diameter in the Fourier plane on the intensity distribution in
 the experiment.</b>  
 The speckle become smaller as the aperture opens up. I illuminate the
 object with a Helium-Neon-Laser (λ = 633 nm) that is coupled over a S = 200 µm optical
