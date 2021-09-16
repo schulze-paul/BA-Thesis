@@ -42,7 +42,7 @@ Simulation and control software of white light interferometry methods.
 
 </div>
 
-<b>Figure 3. Amplitude and phase of numerically simulated coherent speckle wavefield in the sensor plane.</b>  
+<b>Figure 1. Amplitude and phase of numerically simulated coherent speckle wavefield in the sensor plane.</b>  
 The amplitude consists of the characteristic speckle pattern. The phase distribution shows phase singularities (e.g. red arrow) and phase jumps (e.g. yellow arrow). I generated the wavefield with 128 scattering points on a square surface of size 5.42 mm × 5.42 mm,
 10 mm from the input plane, illuminated with a wavelength of λ = 530 nm. The 4f setup
 consists of two f = 100 mm lenses and a Fourier aperture of diameter ρ = 0.25 mm. The
@@ -53,7 +53,7 @@ sampled area shown is 512 × 512 pixels with a pixel pitch of ∆x = 5.2 µm.
 	width="300"/>
 
 </div>	
-<b>Figure 4. Cross section of the amplitude from the generated speckle field.</b>
+<b>Figure 2. Cross section of the amplitude from the generated speckle field.</b>
 I captured the intensities at different z by varying the transfer function Hz in the Fourier domain from z = -500 mm
 to z = 500 mm. I generated the wavefield with the same parameters as Figure 3. The
 sampled area shown is 1024 × 1024 pixels.
@@ -67,7 +67,7 @@ sampled area shown is 1024 × 1024 pixels.
 
 </div>
 
-<b>Figure 5. Normalized intensity histogram of the calculated coherent speckle pattern.</b>  
+<b>Figure 3. Normalized intensity histogram of the calculated coherent speckle pattern.</b>  
 An exponential function
 f(I/¯I) = a/¯I exp(b · I/¯I) (blue line)
 is fitted to the data (black dots). The
@@ -88,7 +88,7 @@ from the fit calculation.
 
 </div>
 
-<b>Figure 6. Speckle size dependence on wavelength, aperture diameter and focal length in the
+<b>Figure 4. Speckle size dependence on wavelength, aperture diameter and focal length in the
 4f setup. </b>  
 <b>a</b>, Amplitude distributions of speckle fields with different speckle sizes. <b>b</b>, <b>c</b>, <b>d</b>,
 Speckle size ∆s plotted over the wavelength of light λ, the reciprocal of aperture diameter
@@ -107,7 +107,7 @@ from the fit calculation.
 
 </div>
 
-<b>Figure 7. Numerically calculated amplitude distributions of a partially coherent wavefield at
+<b>Figure 5. Numerically calculated amplitude distributions of a partially coherent wavefield at
 different propagation distances. </b>  
 I placed the objects’ surface at z0 = 10 mm and scanned
 through the incoherent wavefield by changing the transfer function Hz on the SLM accordingly.
@@ -126,26 +126,60 @@ of ρ = 1 mm. The sampled areas shown are 256 × 256 pixels with a pixel pitch o
 
 </div>
 
-<b>Figure 8. Cross section and contrast values of the simulated incoherent amplitude distributions near the objects’ surface.</b>  
+<b>Figure 6. Cross section and contrast values of the simulated incoherent amplitude distributions near the objects’ surface.</b>  
 <b>a</b>, Cross section of the wavefields’ amplitude. The amplitude slices at different z were calculated by varying the transfer function in the Fourier domain
 from z = 9 mm to z = 11 mm. The area of high contrast surrounding the objects’ surface is
 clearly identifiable. <b>b</b>, Contrast of the partially coherent interference pattern. zmax ≈ 1.2 mm
 denotes the area where the contrast of the recorded intensity distribution is high.
 	
-<h2>Experimental Results</h2>
+<h2 align=center>Experimental Results</h2>
 	
+
 <h3 align=center >Size of Speckle in the Experiment</h3>
 	
 <div align="center">
 	<img src="https://github.com/schulze-paul/BIAS-SPICE/blob/master/Figures/Aperture_Diameter.PNG?raw=true" alt="Simulation Results" title="Simulation Results" 
-	width="600"/>
-
+	width="800"/>
 </div>
 
-<b>Figure 9. : Influence of the aperture diameter in the Fourier plane on the intensity distribution in
+<b>Figure 7. : Influence of the aperture diameter in the Fourier plane on the intensity distribution in
 the experiment.</b>  
 The speckle become smaller as the aperture opens up. I illuminate the
 object with a Helium-Neon-Laser (λ = 633 nm) that is coupled over a S = 200 µm optical
 fiber in a collimator of effective focal length R = 18 mm. The lenses in the 4f setup were of
 focal length f = 100 mm. The images captured are 512 × 512 pixels and 1.8 mm × 1.8 mm.
 Circles indicating aperture size not to scale
+
+	
+<h3 align=center >SLM Propagation in the Experiment</h3>
+
+<div align="center">
+	<img src="https://github.com/schulze-paul/BIAS-SPICE/blob/master/Figures/Moving_Focal_Plane.PNG?raw=true" alt="Simulation Results" title="Simulation Results" 
+	width="800"/>
+</div>
+
+<b>Figure 8. Moving the focal plane via SLM.</b> 
+<b>a</b>, Sharp image of the object in the input plane of the
+4f setup with no SLM modulation. <b>b</b>, Blurred image of the object at distance z0 ≈ 10 mm from
+the input plane with no SLM modulation. <b>c</b>, Sharp image of the object at distance z0 ≈ 10 mm
+from the imaging plane with the SLM shifting the focal plane to z = 10 mm. The reduction of
+brightness on the left side is owed to the fact that the light source is further away from the
+object compared to image a.
+
+	
+<h3 align=center>Contrast Difference for Surface Features Under Partially Coherent Illumination in the Experiment</h3>
+
+<div align="center">
+	<img src="https://github.com/schulze-paul/BIAS-SPICE/blob/master/Figures/Contrast_difference.png?raw=true" alt="Simulation Results" title="Simulation Results" 
+	width="700"/>
+</div>
+
+<b>Figure 9. Sharpness difference between steps in the surface at partially coherent illumination.</b> 
+Numbers in white referring to step number. Red arrows indicating
+area in focus, yellow arrows indicating area out of focus. The combined height of steps 4-8
+adds up to 35 µm. <b>a</b>, Intensity distribution captured without SLM modulation. <b>b</b>, A transfer
+function Hz for z = 3 mm is written on the SLM. This results in a shift of the focal plane
+closer to the outermost ring. The parameters of the setup were set to: fiber opening diameter
+S = 1.4 mm, effective collimator focal length R = 6 mm, wavelength of light λ = 530 nm, 4f
+focal length f = 100 mm and aperture diameter ρ ≈ 6 mm
+
