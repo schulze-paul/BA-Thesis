@@ -183,3 +183,15 @@ closer to the outermost ring. The parameters of the setup were set to: fiber ope
 S = 1.4 mm, effective collimator focal length R = 6 mm, wavelength of light λ = 530 nm, 4f
 focal length f = 100 mm and aperture diameter ρ ≈ 6 mm
 
+<h1>Conclusion<h1>
+In the course of this work I investigated several aspects of a 4f setup with a spatial light modulator
+in the Fourier plane. The spatial light modulator was instructed to display a phase shifting transfer
+function of propagation. I studied the effect of the wavelength of light, the opening diameter of
+the light source, the distance of the light source, as well as the focal length and the size of the
+Fourier aperture. For coherent illumination, the size of the Speckle is affected (Figure 4, 7).
+For partially coherent illumination, the area, where high contrast interference occurs, is affected
+as well (Figure 6, 8).
+This was examined both in a numerical simulation that I based off of Fourier optics, and in the
+experimental system itself, which I set up and took into operation. In order to
+address the spatial light modulator, I wrote a program that would detect and compensate misalignment between the optical axes and display the appropriate transfer function of propagation
+onto the device.
