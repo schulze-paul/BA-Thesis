@@ -32,7 +32,7 @@ extended depth of focus.
 	
 Simulation and control software of white light interferometry methods.
 
-<h1 align=center >Results</h1>
+<h1 align=center >Simulation Results</h1>
 
 <h3 align=center >Amplitude and Phase of Simulated Speckle</h3>
 	
@@ -95,3 +95,57 @@ Speckle size ∆s plotted over the wavelength of light λ, the reciprocal of ape
 1/ρ and focal length f, respectively. Linear curves were fitted against the data. Error bars
 indicate 95% confidence intervals. Linear relationships can be observed in all three cases.
 from the fit calculation.
+	
+
+	
+<h3 align=center >Contrast in Simulated Partially Coherent Speckle
+</h3>
+	
+<div align="center">
+	<img src="https://github.com/schulze-paul/BIAS-SPICE/blob/master/Figures/Speckle_Contrast.PNG?raw=true" alt="Simulation Results" title="Simulation Results" 
+	width="600"/>
+
+</div>
+
+<b>Figure 7. Numerically calculated amplitude distributions of a partially coherent wavefield at
+different propagation distances. </b>  
+I placed the objects’ surface at z0 = 10 mm and scanned
+through the incoherent wavefield by changing the transfer function Hz on the SLM accordingly.
+The contrast changes with the distance to the objects’ surface. I calculated the amplitude
+distributions from 1024 scattering points on a square surface of 5.42 mm × 5.42 mm, 10 mm
+from the input plane, illuminated with monochromatic light of wavelength λ = 530 nm. The
+wavefield was processed through a 4f optical filter with f = 150 mm and an aperture diameter
+of ρ = 1 mm. The sampled areas shown are 256 × 256 pixels with a pixel pitch of ∆x ≈ 10 um.
+
+	
+<h3 align=center >Cross Section of Simulated Partially Coherent Speckle</h3>
+	
+<div align="center">
+	<img src="https://github.com/schulze-paul/BIAS-SPICE/blob/master/Figures/Speckle_cross_section_figure.PNG?raw=true" alt="Simulation Results" title="Simulation Results" 
+	width="600"/>
+
+</div>
+
+<b>Figure 8. Cross section and contrast values of the simulated incoherent amplitude distributions near the objects’ surface.</b>  
+<b>a</b>, Cross section of the wavefields’ amplitude. The amplitude slices at different z were calculated by varying the transfer function in the Fourier domain
+from z = 9 mm to z = 11 mm. The area of high contrast surrounding the objects’ surface is
+clearly identifiable. <b>b</b>, Contrast of the partially coherent interference pattern. zmax ≈ 1.2 mm
+denotes the area where the contrast of the recorded intensity distribution is high.
+	
+<h2>Experimental Results</h2>
+	
+<h3 align=center >Size of Speckle in the Experiment</h3>
+	
+<div align="center">
+	<img src="https://github.com/schulze-paul/BIAS-SPICE/blob/master/Figures/Aperture_Diameter.PNG?raw=true" alt="Simulation Results" title="Simulation Results" 
+	width="600"/>
+
+</div>
+
+<b>Figure 9. : Influence of the aperture diameter in the Fourier plane on the intensity distribution in
+the experiment.</b>  
+The speckle become smaller as the aperture opens up. I illuminate the
+object with a Helium-Neon-Laser (λ = 633 nm) that is coupled over a S = 200 µm optical
+fiber in a collimator of effective focal length R = 18 mm. The lenses in the 4f setup were of
+focal length f = 100 mm. The images captured are 512 × 512 pixels and 1.8 mm × 1.8 mm.
+Circles indicating aperture size not to scale
