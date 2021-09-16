@@ -183,7 +183,7 @@ closer to the outermost ring. The parameters of the setup were set to: fiber ope
 S = 1.4 mm, effective collimator focal length R = 6 mm, wavelength of light λ = 530 nm, 4f
 focal length f = 100 mm and aperture diameter ρ ≈ 6 mm
 
-<h1>Conclusion<h1>
+<h1>Conclusion</h1>
 In the course of this work I investigated several aspects of a 4f setup with a spatial light modulator
 in the Fourier plane. The spatial light modulator was instructed to display a phase shifting transfer
 function of propagation. I studied the effect of the wavelength of light, the opening diameter of
